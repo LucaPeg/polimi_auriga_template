@@ -1,0 +1,37 @@
+\documentclass[13pt,aspectratio=169]{beamer}
+\usetheme{aurigapolimi}
+
+% % % % METADATA % % % % % % % % % % % % 
+
+\title{A title}
+\subtitle{A clever subtitle}
+\author{An author$^{1}$} 
+\institute{$^{1}$ Politecnico di Milano}
+\setaurigadate{\today}
+\selectcolor{deepBluePolimi} % lighter polimi blue also available (bluePolimi)
+
+
+% = = = = = = = = = = = = = = = = = = = =
+% Set up logos = = = = = = = = = = = = =
+% = = = = = = = = = = = = = = = = = = = =
+
+% Title-page logos
+\setaurigatitlelogoA{logos/polimi_logo.eps}
+\setaurigatitlelogoheightA{1.5cm}
+
+%\setaurigatitlelogoB{logos/uab_text.eps}
+%\setaurigatitlelogoheightB{1.8cm}
+
+% Slide logos
+\setaurigalogoA{logos/polimi_logo.eps}
+\setaurigalogoheightA{0.7cm}
+
+\setaurigalogoB{}
+\setaurigalogoheightB{}
+
+\begin{document}
+\aurigatitleframe
+\include{slides/0_introduction}
+\include{slides/0_boh}
+\end{document}
+
