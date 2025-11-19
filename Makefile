@@ -4,8 +4,7 @@ BUILD := \
 
 
 DEPS := \
-	beamerthemeauriga.sty \
-	beamercolorthemeauriga.sty \
+	beamerthemepolimiauriga.sty \
 	presentation.tex \
 	$(shell find slides -name '*.tex') \
 
