@@ -12,3 +12,9 @@ By default, the title logos are aligned at center of the bottom of the title sli
 
 ### Colors
 Usually, official Polimi templates use a very debatable light blue, which can be employed setting `\selectcolor{polimiBlue}`. Otherwise, a deeper, much more pleasant blue is available by using `\selectcolor{deepPolimiBlue}`.
+
+## Dependencies
+Being based on [Auriga](https://markdownlivepreview.com/), the theme needs:
+- A TeX installation that includes LuaTeX
+- LaTeX package dependencies including beamer (these usually come with your TeX installation, but if not, you can get them from CTAN)
+- Raleway, Lato, and Hack, which are all available under Open Font License
